@@ -37,28 +37,63 @@ header li > a {
 header li > a:hover {
   color:
   #a3a375;
+  text-align: center;
 }
 
-.current  {
-  border-bottom: 4px solid
-  #a3a375;
-}
+
+/*project*/
 
 .works {
-  width: 400px;
-  margin: 60px auto;
+  /* margin-top:20px; */
   border-bottom: 1px solid gray;
+  display: inline-flex;
+  width: 1200px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
 }
 
-.works h1, .works p {
+.works .aphasia, .blackjack, .partyShop{
+width: 400px;
+text-align: center;
+word-wrap: break-word;
+background-color: #C0C0C0;
+border-radius: 5px;
+margin-top: 40px;
+margin-right: 40px;
+margin-left: 20px;
+padding: 10px;
+}
+
+.works .blackjack h1{
+padding: 20px;
+}
+
+.works .partyShop h1{
+padding: 40px;
+}
+
+.works h1 {
   font-size: 20px;
   text-align: center;
+  color: #006666;
+}
+.works p {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Crimson ';
+    color: #006666;
+    margin:10px;
 }
 
 .works > section {
   margin-bottom: 40px;
 }
 
+/*footer*/
 footer {
 
   margin: 0 auto 60px;
@@ -101,22 +136,6 @@ section .front p {
   text-align: center;
 }
 
-
-/* @media (max-width: 950px) {
-  .about {
-    width: 80%;
-    height: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 950px) {
-  .aboutme__left {
-      width: 50%;
-      margin-bottom: 50px;
-      padding-top: 20px;
-      order: 2;
-} */
 div {
     display: block;
 }
@@ -162,9 +181,7 @@ section .about h2 {
 footer .aboutMeFooter {
   text-align: left;
 }
-/* .aboutMeFooter {
-  background: black;
-} */
+
 
 
 /* contact */
@@ -187,4 +204,20 @@ section .contact li {
 .contactUs {
 text-align: center;
 
+}
+
+/* mediun */
+
+@media (min-width: 570px) {
+  body {
+
+  }
+}
+
+/*large*/
+
+@media (min-width: 820px) {
+  body {
+
+  }
 }
