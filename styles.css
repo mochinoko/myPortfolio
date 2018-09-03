@@ -28,11 +28,11 @@ header li {
   text-align: center;
 }
 
-header li > a {
+/* header li > a {
   text-decoration: none;
   color: inherit;
   text-align: center;
-}
+} */
 
 header li > a:hover {
   color:
